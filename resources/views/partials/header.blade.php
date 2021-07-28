@@ -18,12 +18,12 @@
 
             </div>
             <!-- navbar -->
-            <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow divide-x gap-4 divide-red-600 pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
+            <nav :class="{'flex': open, 'hidden': !open}" class="flex-col flex-grow divide-x gap-4 divide-pink-600 pb-4 md:pb-0 hidden md:flex md:justify-end md:flex-row">
                 <!-- Navigation Buttons -->
-                <a class="{{request()->routeIs('home') ? 'text-red-600 ':''}}px-4 py-2 mt-2 text-lg font-semibold hover:text-red-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('home')}}">Inicio</a>
-                <a class="{{request()->routeIs('recetas') ? 'text-red-600 ':''}}px-4 py-2 mt-2 text-lg font-semibold hover:text-red-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('recetas')}}">Recetas</a>
-                <a class="{{request()->routeIs('mercancia') ? 'text-red-600 ':''}}px-4 py-2 mt-2 text-lg font-semibold hover:text-red-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('mercancia')}}">Mercancia</a>
-                <a class="{{request()->routeIs('contacto') ? 'text-red-600 ':''}}px-4 py-2 mt-2 text-lg font-semibold mr-4 hover:text-red-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('contacto')}}">Contacto</a>
+                <a class="{{request()->routeIs('home') ? 'text-pink-600 ':''}}px-4 py-2 mt-2 text-lg font-semibold hover:text-pink-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('home')}}">Inicio</a>
+                <a class="{{request()->routeIs('recetas') ? 'text-pink-600 ':''}}px-4 py-2 mt-2 text-lg font-semibold hover:text-pink-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('recetas')}}">Recetas</a>
+                <a class="{{request()->routeIs('mercancia') ? 'text-pink-600 ':''}}px-4 py-2 mt-2 text-lg font-semibold hover:text-pink-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('mercancia')}}">Mercancia</a>
+                <a class="{{request()->routeIs('contacto') ? 'text-pink-600 ':''}}px-4 py-2 mt-2 text-lg font-semibold mr-4 hover:text-pink-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('contacto')}}">Contacto</a>
                 <!-- end Navigation Buttons-->
 
             </nav>
