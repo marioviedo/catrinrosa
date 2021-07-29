@@ -10,8 +10,9 @@ class welcomeController extends Controller
         return view('welcome');
     }
 
-    public function recetasIndex(){
-        return view('recetas');
+    public function recetasIndex($tipo){
+        $var = $tipo;
+        return view('recetas', compact('var'));
     }
 
     public function mercanciaIndex(){

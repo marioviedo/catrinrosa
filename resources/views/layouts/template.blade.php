@@ -18,7 +18,9 @@
     <!-- end Header -->
 
     <!-- Content -->
-    @yield('content')
+    <div class="container mx-auto">
+        @yield('content')
+    </div>
     <!-- end Content -->
 
     <!-- Footer -->

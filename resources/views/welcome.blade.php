@@ -3,5 +3,8 @@
 @section('title', 'Catrin Rosa')
     
 @section('content')
-    algo
+    
+    <div class="text-white pt-3">
+        <img src="{{asset('images/tequilaMedium.jpg')}}" alt="">
+    </div>
 @endsection
