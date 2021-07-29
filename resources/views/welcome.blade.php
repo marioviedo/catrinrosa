@@ -4,7 +4,7 @@
     
 @section('content')
     
-    <div class="text-white pt-3">
+    <div class="text-white px-3">
         <img src="{{asset('images/tequilaMedium.jpg')}}" alt="">
     </div>
 @endsection
