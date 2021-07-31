@@ -1,5 +1,5 @@
-<header class="fixed right-0 left-0 opacity-75">
-    <div class="container">
+<header>
+    <div class="w-full container px-2 mx-auto fixed right-0 left-0 opacity-75">
         <div x-data="{ open: false }" class="flex flex-col bg-black text-white max-w-screen-2xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
             <div class="p-4 flex flex-row items-center justify-between">
 

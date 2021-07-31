@@ -4,11 +4,11 @@
     
 @section('content')
     <div class="py-2 text-white">
-        <div class="text-lg text-center px-4">
+        <div class="container px-2 text-lg text-center">
             <p>Contactanos por medio de nuestras redes sociales en:</p>
         </div>  
         <!-- redes sociales zone -->      
-        <div class="container flex flex-row px-4 py-4 gap-5 justify-center">
+        <div class="container px-2 mx-auto flex flex-row py-4 gap-5 justify-center">
             <!-- Facebook button -->                                    
             <div>
                 <a href="https://www.facebook.com/catrinrosatequila" target="_blank">
@@ -63,13 +63,13 @@
             <!-- end Instagram button -->
         </div>    
         <!-- end redes sociales zone -->
-        <div class="text-lg text-center px-4">
+        <div class="container px-2 text-lg text-center">
             <p>Tambien puedes mandarnos un correo a: <span class="text-red-600 px-1">contacto@catrinrosa.com</span></p>
             <p>o rellena el siguiente formulario y nosotros nos comunicamos contigo</p>            
         </div>  
         <!-- form -->
-        <div class="container flex justify-center py-4">
-            <div class="rounded-lg border-2 border-pink-600 w-max">
+        <div class="container px-2 mx-auto flex justify-center py-4">
+            <div class="rounded-lg border-2 border-pink-600">
                 <form class=" p-6 text-lg" action="{{route('contacto')}}" method="post">
                     <div class="flex justify-center gap-3 pb-4">
                         <label class="flex items-center" for="name">Nombre:</label>
@@ -92,8 +92,6 @@
                             <button class="p-2" type="submit">Enviar</button>
                         </div>
                     </div>
-                    
-                    
                 </form>
             </div>
         </div>

@@ -1,5 +1,5 @@
-<footer class="text-white mb-4 mx-auto">
-    <div class="container py-4 flex flex-wrap mx-auto text-center gap-3 divide-x divide-pink-600 text-xs md:text-sm lg:text-sm xl:text-base">
+<footer>
+    <div class="container px-2 mx-auto py-4 text-white mb-4 flex flex-wrap text-center gap-3 divide-x divide-pink-600 text-xs md:text-sm lg:text-sm xl:text-base">
         <!-- Mapa del sitio zone -->
         <div class="flex-grow">
             <span class="font-semibold">Mapa del sitio</span>
