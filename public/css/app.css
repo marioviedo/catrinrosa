@@ -17756,6 +17756,18 @@ video {
   background-image: url('/catrinrosa/public/images/tequilaMedium.jpg');
 }
 
+.bg-main-image-3 {
+  background-image: url('/catrinrosa/public/images/tequila3Medium.jpg');
+}
+
+.bg-main-image-2 {
+  background-image: url('/catrinrosa/public/images/tequila2Medium.jpg');
+}
+
+.bg-main-image-4 {
+  background-image: url('/catrinrosa/public/images/tequila4Medium.jpg');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -48999,6 +49011,18 @@ video {
     background-image: url('/catrinrosa/public/images/tequilaMedium.jpg');
   }
 
+  .sm\:bg-main-image-3 {
+    background-image: url('/catrinrosa/public/images/tequila3Medium.jpg');
+  }
+
+  .sm\:bg-main-image-2 {
+    background-image: url('/catrinrosa/public/images/tequila2Medium.jpg');
+  }
+
+  .sm\:bg-main-image-4 {
+    background-image: url('/catrinrosa/public/images/tequila4Medium.jpg');
+  }
+
   .sm\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -80228,6 +80252,18 @@ video {
 
   .md\:bg-main-image {
     background-image: url('/catrinrosa/public/images/tequilaMedium.jpg');
+  }
+
+  .md\:bg-main-image-3 {
+    background-image: url('/catrinrosa/public/images/tequila3Medium.jpg');
+  }
+
+  .md\:bg-main-image-2 {
+    background-image: url('/catrinrosa/public/images/tequila2Medium.jpg');
+  }
+
+  .md\:bg-main-image-4 {
+    background-image: url('/catrinrosa/public/images/tequila4Medium.jpg');
   }
 
   .md\:from-transparent {
@@ -111461,6 +111497,18 @@ video {
     background-image: url('/catrinrosa/public/images/tequilaMedium.jpg');
   }
 
+  .lg\:bg-main-image-3 {
+    background-image: url('/catrinrosa/public/images/tequila3Medium.jpg');
+  }
+
+  .lg\:bg-main-image-2 {
+    background-image: url('/catrinrosa/public/images/tequila2Medium.jpg');
+  }
+
+  .lg\:bg-main-image-4 {
+    background-image: url('/catrinrosa/public/images/tequila4Medium.jpg');
+  }
+
   .lg\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -142692,6 +142740,18 @@ video {
     background-image: url('/catrinrosa/public/images/tequilaMedium.jpg');
   }
 
+  .xl\:bg-main-image-3 {
+    background-image: url('/catrinrosa/public/images/tequila3Medium.jpg');
+  }
+
+  .xl\:bg-main-image-2 {
+    background-image: url('/catrinrosa/public/images/tequila2Medium.jpg');
+  }
+
+  .xl\:bg-main-image-4 {
+    background-image: url('/catrinrosa/public/images/tequila4Medium.jpg');
+  }
+
   .xl\:from-transparent {
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -173921,6 +173981,18 @@ video {
 
   .\32xl\:bg-main-image {
     background-image: url('/catrinrosa/public/images/tequilaMedium.jpg');
+  }
+
+  .\32xl\:bg-main-image-3 {
+    background-image: url('/catrinrosa/public/images/tequila3Medium.jpg');
+  }
+
+  .\32xl\:bg-main-image-2 {
+    background-image: url('/catrinrosa/public/images/tequila2Medium.jpg');
+  }
+
+  .\32xl\:bg-main-image-4 {
+    background-image: url('/catrinrosa/public/images/tequila4Medium.jpg');
   }
 
   .\32xl\:from-transparent {

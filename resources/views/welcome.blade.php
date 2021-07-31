@@ -8,43 +8,73 @@
         <div class="bg-main-image h-screen bg-center xl:bg-cover md:bg-cover"></div>
         <!-- end main image -->
 
-        <!-- information -->
-        <div class="px-4 py-4">
-            <p class=" text-3xl overflow-clip break-words">
-                Sencillas, sonrientes y llenas de ingenuidad, como la musulmana Schehrazada, su madre suculenta que las dió a luz en el misterio; fermentando con emoción en los brazos de un príncipe sublime —lúbrico y feroz—, bajo la mirada enternecida de Alah, clemente y misericordioso.
-                Al venir al mundo fueron delicadamente mecidas por las manos de la lustral Doniazada, su buena tía, que grabó sus nombres sobre hojas de oro coloreadas de húmedas pedrerías y las cuidó bajo el terciopelo de sus pupilas hasta la adolescencia dura, para esparcirlas después, voluptuosas y libres, sobre el mundo oriental, eternizado por su sonrisa.
-                Yo os las entrego tales como son, en su frescor de carne y de rosa. Sólo existe un método honrado y lógico de traducción: la «literalidad», una literalidad impersonal, apenas atenuada por un leve parpadeo y una ligera sonrisa del traductor. Ella crea, sugestiva, la más grande potencia literaria. Ella produce el placer de la evocación. Ella es la garantía de la verdad. Ella es firme e inmutable, en su desnudez de piedra. Ella cautiva el aroma primitivo y lo cristaliza. Ella separa y desata... Ella fija.
-            </p>
+        <!-- information 1 -->
+        <div class="flex flex-row flex-wrap md:flex-nowrap lg:flex-nowrap xl:flex-nowrap px-4 py-4">
+            <div class="flex flex-grow flex-col justify-center pr-2">
+                <div>
+                    <h1 class="text-center text-2xl">Texto 1</h1>
+                </div>
+                <div class="max-w-7xl">
+                    <p class=" text-xl overflow-clip break-words">
+                        Sencillas, sonrientes y llenas de ingenuidad, como la musulmana Schehrazada, su madre suculenta que las dió a luz en el misterio; fermentando con emoción en los brazos de un príncipe sublime —lúbrico y feroz—, bajo la mirada enternecida de Alah, clemente y misericordioso.
+                        Al venir al mundo fueron delicadamente mecidas por las manos de la lustral Doniazada, su buena tía
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img class="" src="{{asset('images/tequila3Medium.jpg')}}" alt="">
+            </div>
         </div>
         <!-- end information -->
 
-        <!-- main Image -->
-        <div class="bg-main-image h-screen bg-center xl:bg-cover md:bg-cover"></div>
-        <!-- end main image -->
-
-        <!-- information -->
-        <div class="px-4 py-4">
-            <p class=" text-3xl overflow-clip break-words">
-                Sencillas, sonrientes y llenas de ingenuidad, como la musulmana Schehrazada, su madre suculenta que las dió a luz en el misterio; fermentando con emoción en los brazos de un príncipe sublime —lúbrico y feroz—, bajo la mirada enternecida de Alah, clemente y misericordioso.
-                Al venir al mundo fueron delicadamente mecidas por las manos de la lustral Doniazada, su buena tía, que grabó sus nombres sobre hojas de oro coloreadas de húmedas pedrerías y las cuidó bajo el terciopelo de sus pupilas hasta la adolescencia dura, para esparcirlas después, voluptuosas y libres, sobre el mundo oriental, eternizado por su sonrisa.
-                Yo os las entrego tales como son, en su frescor de carne y de rosa. Sólo existe un método honrado y lógico de traducción: la «literalidad», una literalidad impersonal, apenas atenuada por un leve parpadeo y una ligera sonrisa del traductor. Ella crea, sugestiva, la más grande potencia literaria. Ella produce el placer de la evocación. Ella es la garantía de la verdad. Ella es firme e inmutable, en su desnudez de piedra. Ella cautiva el aroma primitivo y lo cristaliza. Ella separa y desata... Ella fija.
-            </p>
+        <!-- information with background image -->
+        <div class="bg-main-image-4 h-screen bg-center xl:bg-cover md:bg-cover flex items-center">
+            <div class="max-w-xl">                
+                <p class="text-left text-xl overflow-clip break-words">
+                    Sencillas, sonrientes y llenas de ingenuidad, como la musulmana Schehrazada, su madre suculenta que las dió a luz en el misterio; fermentando con emoción en los brazos de un príncipe sublime —lúbrico y feroz—, bajo la mirada enternecida de Alah, clemente y misericordioso.
+                    Al venir al mundo fueron delicadamente mecidas por las manos de la lustral Doniazada, su buena tía
+                </p>                
+            </div>
         </div>
-        <!-- end information -->
+        <!-- end information with background image -->
 
-        <!-- main Image -->
-        <div class="bg-main-image h-screen bg-center xl:bg-cover md:bg-cover"></div>
-        <!-- end main image -->
-
-        <!-- information -->
-        <div class="px-4 py-4">
-            <p class=" text-3xl overflow-clip break-words">
-                Sencillas, sonrientes y llenas de ingenuidad, como la musulmana Schehrazada, su madre suculenta que las dió a luz en el misterio; fermentando con emoción en los brazos de un príncipe sublime —lúbrico y feroz—, bajo la mirada enternecida de Alah, clemente y misericordioso.
-                Al venir al mundo fueron delicadamente mecidas por las manos de la lustral Doniazada, su buena tía, que grabó sus nombres sobre hojas de oro coloreadas de húmedas pedrerías y las cuidó bajo el terciopelo de sus pupilas hasta la adolescencia dura, para esparcirlas después, voluptuosas y libres, sobre el mundo oriental, eternizado por su sonrisa.
-                Yo os las entrego tales como son, en su frescor de carne y de rosa. Sólo existe un método honrado y lógico de traducción: la «literalidad», una literalidad impersonal, apenas atenuada por un leve parpadeo y una ligera sonrisa del traductor. Ella crea, sugestiva, la más grande potencia literaria. Ella produce el placer de la evocación. Ella es la garantía de la verdad. Ella es firme e inmutable, en su desnudez de piedra. Ella cautiva el aroma primitivo y lo cristaliza. Ella separa y desata... Ella fija.
-            </p>
+        <!-- information 2 -->
+        <div class="flex flex-row flex-wrap md:flex-nowrap lg:flex-nowrap xl:flex-nowrap px-4 py-4">
+            <div>
+                <img class="flex justify-center" src="{{asset('images/tequila2Medium.jpg')}}" alt="">
+            </div>
+            <div class="flex flex-grow flex-col justify-center pl-2">
+                <div>
+                    <h1 class="text-center text-2xl">Texto 2</h1>
+                </div>
+                <div class="max-w-7xl">
+                    <p class=" text-xl overflow-clip break-words">
+                        Sencillas, sonrientes y llenas de ingenuidad, como la musulmana Schehrazada, su madre suculenta que las dió a luz en el misterio; fermentando con emoción en los brazos de un príncipe sublime —lúbrico y feroz—, bajo la mirada enternecida de Alah, clemente y misericordioso.
+                        Al venir al mundo fueron delicadamente mecidas por las manos de la lustral Doniazada, su buena tía
+                    </p>
+                </div>
+            </div>
         </div>
-        <!-- end information -->
+        <!-- end information 2 -->
+
+        <!-- information 3 -->
+        <div class="flex flex-row flex-wrap md:flex-nowrap lg:flex-nowrap xl:flex-nowrap px-4 pb-4">
+            <div class="flex flex-grow flex-col justify-center pl-2">
+                <div>
+                    <h1 class="text-center text-2xl">Texto 3</h1>
+                </div>
+                <div class="max-w-7xl">
+                    <p class=" text-xl overflow-clip break-words">
+                        Sencillas, sonrientes y llenas de ingenuidad, como la musulmana Schehrazada, su madre suculenta que las dió a luz en el misterio; fermentando con emoción en los brazos de un príncipe sublime —lúbrico y feroz—, bajo la mirada enternecida de Alah, clemente y misericordioso.
+                        Al venir al mundo fueron delicadamente mecidas por las manos de la lustral Doniazada, su buena tía
+                    </p>
+                </div>
+            </div>
+            <div>
+                <img class="flex justify-center" src="{{asset('images/tequilaMedium.jpg')}}" alt="">
+            </div>
+        </div>
+        <!-- end information 3 -->
     </div>
     
 @endsection
