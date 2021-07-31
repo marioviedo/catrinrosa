@@ -18,7 +18,7 @@
     <!-- end Header -->
 
     <!-- Content -->
-    <div class="container mx-auto">
+    <div class="container mx-auto pt-36 pb-4">
         @yield('content')
     </div>
     <!-- end Content -->

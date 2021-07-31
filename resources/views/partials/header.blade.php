@@ -1,4 +1,4 @@
-<header class="">
+<header class="fixed right-0 left-0 opacity-75">
     <div class="w-full">
         <div x-data="{ open: false }" class="flex flex-col bg-black text-white max-w-screen-2xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
             <div class="p-4 flex flex-row items-center justify-between">
@@ -29,8 +29,8 @@
                   </button>
                   <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
                     <div class="px-2 py-2 shadow dark-mode:bg-gray-800">
-                      <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent hover:text-pink-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('recetas', 'Postres')}}">Postres</a>
-                      <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent hover:text-pink-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('recetas', 'Cocteles')}}">Cócteles</a>                    
+                      <a class="block px-4 py-2 mt-2 text-lg font-semibold bg-transparent hover:text-pink-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('recetas', 'Postres')}}">Postres</a>
+                      <a class="block px-4 py-2 mt-2 text-lg font-semibold bg-transparent hover:text-pink-600 md:mt-0 focus:outline-none focus:shadow-outline" href="{{route('recetas', 'Cocteles')}}">Cócteles</a>                    
                     </div>
                   </div>
                 </div> 
