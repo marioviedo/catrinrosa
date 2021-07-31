@@ -1,5 +1,5 @@
 <footer class="text-white">
-    <div class="container py-4 flex flex-wrap mx-auto text-center gap-3 text-xs md:text-sm lg:text-sm xl:text-base">
+    <div class="container py-4 flex flex-wrap mx-auto text-center gap-3 divide-x divide-pink-600 text-xs md:text-sm lg:text-sm xl:text-base">
         <!-- Mapa del sitio zone -->
         <div class="flex-grow">
             <span class="font-semibold">Mapa del sitio</span>
@@ -20,7 +20,7 @@
         <!-- Redes sociales zone -->
         <div class="flex-grow">
             <span class="font-semibold">Redes Sociales</span>
-            <div class="container flex flex-col px-2 mx-auto gap-3">
+            <div class="container flex flex-col px-2 mx-auto gap-3 ml-4">
                 <!-- Facebook button -->
                 <div class="flex flex-row gap-3">
                     <!-- image -->
@@ -38,7 +38,7 @@
                     <!-- end image -->
                     <!-- link -->
                     <div>
-                        <a href="" target="_blank">Catrin Rosa</a>
+                        <a href="https://www.facebook.com/catrinrosatequila" target="_blank">Catrin Rosa</a>
                     </div>
                     <!-- end link -->
                 </div>
@@ -82,7 +82,7 @@
                     <!-- end image -->
                     <!-- link -->
                     <div>
-                        <a href="" target="_blank">@catrinrosatequila</a>
+                        <a href="https://www.instagram.com/catrinrosatequila/" target="_blank">@catrinrosatequila</a>
                     </div>
                     <!-- end link -->
                 </div>
@@ -92,8 +92,7 @@
         <!-- end Redes sociales zone -->
 
         <!-- Acerca zone -->
-        <div class="flex-grow">
-            <span class="font-semibold">Acerca</span>
+        <div class="flex-grow flex flex-col justify-center">
             <div><span>© Catrín Rosa 2021. Todos los derechos reservados</span></div>
             <div><span>Sitio web diseñado y desarrollado por Mario Oviedo.</span></div>
             <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> de <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
