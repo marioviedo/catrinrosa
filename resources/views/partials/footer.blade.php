@@ -1,6 +1,6 @@
 <footer class="text-white">
     <div class="container py-4 flex flex-wrap mx-auto text-center gap-3 text-xs md:text-sm lg:text-sm xl:text-base">
-        <!-- Download CV zone -->
+        <!-- Mapa del sitio zone -->
         <div class="flex-grow">
             <span class="font-semibold">Mapa del sitio</span>
             <!-- buttons -->
@@ -15,9 +15,9 @@
             </div>
             <!-- end buttons -->
         </div>
-        <!-- end Download CV zone -->
+        <!-- end Mapa del sitio zone -->
 
-        <!-- Social Media zone -->
+        <!-- Redes sociales zone -->
         <div class="flex-grow">
             <span class="font-semibold">Redes Sociales</span>
             <div class="container flex flex-col px-2 mx-auto gap-3">
@@ -42,7 +42,7 @@
                     </div>
                     <!-- end link -->
                 </div>
-                <!-- end Linkedin button -->
+                <!-- end Facebook button -->
 
                 <!-- Instagram button -->
                 <div class="flex flex-row gap-3">
@@ -86,18 +86,18 @@
                     </div>
                     <!-- end link -->
                 </div>
-                <!-- end GitHub button -->
+                <!-- end Instagram button -->
             </div>
         </div>
-        <!-- end Social Media zone -->
+        <!-- end Redes sociales zone -->
 
-        <!-- About zone -->
+        <!-- Acerca zone -->
         <div class="flex-grow">
             <span class="font-semibold">Acerca</span>
             <div><span>© Catrín Rosa 2021. Todos los derechos reservados</span></div>
             <div><span>Sitio web diseñado y desarrollado por Mario Oviedo.</span></div>
             <div>Iconos diseñados por <a href="https://www.freepik.com" title="Freepik">Freepik</a> de <a href="https://www.flaticon.es/" title="Flaticon">www.flaticon.es</a></div>
         </div>
-        <!-- end About zone -->
+        <!-- end Acerca zone -->
     </div>
 </footer>
