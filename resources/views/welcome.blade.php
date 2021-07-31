@@ -12,7 +12,7 @@
         <div class="flex flex-row flex-wrap md:flex-nowrap lg:flex-nowrap xl:flex-nowrap px-4 py-4">
             <div class="flex flex-grow flex-col justify-center pr-2">
                 <div>
-                    <h1 class="text-center text-2xl">Texto 1</h1>
+                    <h1 class="text-center text-2xl text-green-600">Texto 1</h1>
                 </div>
                 <div class="max-w-7xl">
                     <p class=" text-xl overflow-clip break-words">
@@ -45,7 +45,7 @@
             </div>
             <div class="flex flex-grow flex-col justify-center pl-2">
                 <div>
-                    <h1 class="text-center text-2xl">Texto 2</h1>
+                    <h1 class="text-center text-2xl text-green-600">Texto 2</h1>
                 </div>
                 <div class="max-w-7xl">
                     <p class=" text-xl overflow-clip break-words">
@@ -61,7 +61,7 @@
         <div class="flex flex-row flex-wrap md:flex-nowrap lg:flex-nowrap xl:flex-nowrap px-4 pb-4">
             <div class="flex flex-grow flex-col justify-center pl-2">
                 <div>
-                    <h1 class="text-center text-2xl">Texto 3</h1>
+                    <h1 class="text-center text-2xl text-green-600">Texto 3</h1>
                 </div>
                 <div class="max-w-7xl">
                     <p class=" text-xl overflow-clip break-words">
