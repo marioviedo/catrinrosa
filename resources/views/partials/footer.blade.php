@@ -7,10 +7,10 @@
             <div class="container flex flex-col px-2 mx-auto gap-3 text-center leading-tight">
                 <ul>
                     <li><a href="{{route('home')}}">Inicio</a></li>
-                    <li><a href="{{route('recetas', 'Postres')}}">Recetas: Postres</a></li>
-                    <li><a href="{{route('recetas', 'Cocteles')}}">Recetas: Cócteles</a></li>
+                    <li><a href="{{route('recetas.index', 'Postres')}}">Recetas: Postres</a></li>
+                    <li><a href="{{route('recetas.index', 'Cocteles')}}">Recetas: Cócteles</a></li>
                     <li><a href="{{route('mercancia')}}">Mercancia</a></li>
-                    <li><a href="{{route('contacto')}}">Contacto</a></li>
+                    <li><a href="{{route('contacto.index')}}">Contacto</a></li>
                 </ul>
             </div>
             <!-- end buttons -->

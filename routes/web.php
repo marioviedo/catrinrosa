@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\contactController;
 use App\Http\Controllers\recipesController;
 use App\Http\Controllers\welcomeController;
 use Illuminate\Support\Facades\Route;
@@ -16,9 +17,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [welcomeController::class, 'index'])->name('home');
-Route::get('recetas/{tipo}', [recipesController::class, 'recetasIndex'])->name('recetas');
+Route::get('recetas/{tipo}', [recipesController::class, 'recetasIndex'])->name('recetas.index');
 Route::get('recetas/{tipo}/{receta}', [recipesController::class, 'recetasShow'])->name('recetas.show');
 Route::get('mercancia', [welcomeController::class, 'mercanciaIndex'])->name('mercancia');
 Route::get('mercancia/{merch}', [welcomeController::class, 'mercanciaIndex'])->name('mercancia.show');
-Route::get('contacto', [welcomeController::class, 'contactoIndex'])->name('contacto');
+Route::get('contacto', [contactController::class, 'contactoIndex'])->name('contacto.index');
+Route::get('contacto/{validate}', [contactController::class, 'contactoStoreValidate'])->name('contacto.validate');
+Route::post('contacto', [contactController::class, 'contactoStore'])->name('contacto.store');
 

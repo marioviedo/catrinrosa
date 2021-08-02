@@ -3,6 +3,23 @@
 @section('title', 'Contacto')
     
 @section('content')
+    @isset($validate)
+    <div class="flex bg-green-600 mb-4 text-white">
+        <div class="w-16 bg-green">
+            <div class="p-4">
+                <svg class="h-8 w-8 text-white fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M468.907 214.604c-11.423 0-20.682 9.26-20.682 20.682v20.831c-.031 54.338-21.221 105.412-59.666 143.812-38.417 38.372-89.467 59.5-143.761 59.5h-.12C132.506 459.365 41.3 368.056 41.364 255.883c.031-54.337 21.221-105.411 59.667-143.813 38.417-38.372 89.468-59.5 143.761-59.5h.12c28.672.016 56.49 5.942 82.68 17.611 10.436 4.65 22.659-.041 27.309-10.474 4.648-10.433-.04-22.659-10.474-27.309-31.516-14.043-64.989-21.173-99.492-21.192h-.144c-65.329 0-126.767 25.428-172.993 71.6C25.536 129.014.038 190.473 0 255.861c-.037 65.386 25.389 126.874 71.599 173.136 46.21 46.262 107.668 71.76 173.055 71.798h.144c65.329 0 126.767-25.427 172.993-71.6 46.262-46.209 71.76-107.668 71.798-173.066v-20.842c0-11.423-9.259-20.683-20.682-20.683z"/><path d="M505.942 39.803c-8.077-8.076-21.172-8.076-29.249 0L244.794 271.701l-52.609-52.609c-8.076-8.077-21.172-8.077-29.248 0-8.077 8.077-8.077 21.172 0 29.249l67.234 67.234a20.616 20.616 0 0 0 14.625 6.058 20.618 20.618 0 0 0 14.625-6.058L505.942 69.052c8.077-8.077 8.077-21.172 0-29.249z"/></svg>
+            </div>
+        </div>
+        <div class="w-auto text-grey-darker items-center p-4">
+            <span class="text-lg font-bold pb-4">
+                ¡Mensaje enviado!
+            </span>
+            <p class="leading-tight">
+                El mensaje se envio correctamente
+            </p>
+        </div>
+    </div>
+    @endisset
     <div class="py-2 text-white">
         <div class="container px-2 text-lg text-center">
             <p>Contactanos por medio de nuestras redes sociales en:</p>
@@ -70,26 +87,27 @@
         <!-- form -->
         <div class="container px-2 mx-auto flex justify-center py-4">
             <div class="rounded-lg border-2 border-pink-600">
-                <form class=" p-6 text-lg" action="{{route('contacto')}}" method="post">
+                <form class=" p-6 text-lg" action="{{route('contacto.store')}}" method="post">
+                    @csrf
                     <div class="flex justify-center gap-3 pb-4">
                         <label class="flex items-center" for="name">Nombre:</label>
-                        <input class=" py-2 px-3 text-black rounded-md flex-grow" type="text" id="name" name="name">
+                        <input class=" py-2 px-3 text-black rounded-md flex-grow" type="text" id="name" name="name" required>
                     </div>
                     <div class="flex gap-3 pb-4">
                         <label class="flex items-center" for="email">Correo: </label>
-                        <input class=" py-2 px-3 text-black rounded-md flex-grow" type="email" id="email" name="email">
+                        <input class=" py-2 px-3 text-black rounded-md flex-grow" type="email" id="email" name="email" required>
                     </div>
                     <div class="flex gap-3 pb-4">
                         <label class="flex items-center" for="phone">Numero de telefono: </label>
-                        <input class="py-2 px-3 text-black rounded-md flex-grow" type="number" id="phone" name="phone">
+                        <input class="py-2 px-3 text-black rounded-md flex-grow" type="number" id="phone_number" name="phone_number" required>
                     </div>
                     <div class="flex flex-col gap-3 pb-4">
                         <label class="flex items-center" for="message">Mensaje: </label>
-                        <textarea class="py-2 px-3 rounded-md shadow-sm focus:outline-none text-black" name="message" id="message" cols="30" rows="4" maxlength="210"></textarea>
+                        <textarea class="py-2 px-3 rounded-md shadow-sm focus:outline-none text-black" name="message" id="message" cols="30" rows="4" maxlength="210" required></textarea>
                     </div>
                     <div class="flex justify-center">
-                        <div class="rounded-lg border-green-600 border-2 w-full text-center hover:bg-green-600">
-                            <button class="p-2" type="submit">Enviar</button>
+                        <div class="flex justify-center">
+                            <button class="rounded-lg border-green-600 border-2 text-center hover:bg-green-600 py-2 px-7" type="submit">Enviar</button>
                         </div>
                     </div>
                 </form>

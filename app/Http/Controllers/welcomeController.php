@@ -15,7 +15,4 @@ class welcomeController extends Controller
         return view('mercancia');
     }
 
-    public function contactoIndex(){
-        return view('contacto');
-    }
 }
