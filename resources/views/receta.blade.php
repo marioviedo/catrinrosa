@@ -12,7 +12,7 @@
         </div>  
         <div class="flex flex-col">
             <div class="flex justify-center py-2 px-2">
-                <span class="font-extrabold">{{$receta->title}}</span>
+                <span class="font-extrabold text-green-600">{{$receta->title}}</span>
             </div>
             <div class="flex justify-center py-2 px-2 break-words">
                 <span class="max-w-xl">{{$receta->description}}</span>

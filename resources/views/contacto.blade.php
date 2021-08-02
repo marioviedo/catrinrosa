@@ -81,7 +81,7 @@
         </div>    
         <!-- end redes sociales zone -->
         <div class="container px-2 text-lg text-center">
-            <p>Tambien puedes mandarnos un correo a: <span class="text-red-600 px-1">contacto@catrinrosa.com</span></p>
+            <p>Tambien puedes mandarnos un correo a: <span class="text-pink-600 px-1">contacto@catrinrosa.com</span></p>
             <p>o rellena el siguiente formulario y nosotros nos comunicamos contigo</p>            
         </div>  
         <!-- form -->

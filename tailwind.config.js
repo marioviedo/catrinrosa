@@ -3,7 +3,8 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     fontFamily:{
-      'cursive-recipes':['Shadows Into Light', 'cursive']
+      'cursive-recipes':['Shadows Into Light', 'cursive'],
+      'serif':['ui-serif', 'Georgia', 'Cambria', "Times New Roman", 'Times', 'serif'],
     },
     extend: {
       backgroundImage:theme=>({
