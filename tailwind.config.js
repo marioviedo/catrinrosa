@@ -2,6 +2,9 @@ module.exports = {
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    fontFamily:{
+      'cursive-recipes':['Shadows Into Light', 'cursive']
+    },
     extend: {
       backgroundImage:theme=>({
         'main-image' : "url('/catrinrosa/public/images/tequilaMedium.jpg')",
