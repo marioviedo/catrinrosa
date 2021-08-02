@@ -22,9 +22,9 @@ class RecipeFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this->faker->sentence(3),
+            'title' => $this->faker->sentence(2),
             'description' => $this->faker->text(),
-            'image' => 'images/product',
+            'image' => $this->faker->randomElement(['images/product2.jpg', 'images/product.jpg']),
             'category' => $this->faker->randomElement(['postres', 'cocteles']),
         ];
     }

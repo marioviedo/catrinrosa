@@ -15,7 +15,7 @@ class CreateRecipesTable extends Migration
     {
         Schema::create('recipes', function (Blueprint $table) {
             $table->id();
-            $table->string('title', 100);
+            $table->string('title', 28);
             $table->text('description');
             $table->string('image', 100);
             $table->enum('category', ['postres', 'cocteles']);
